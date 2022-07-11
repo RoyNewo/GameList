@@ -31,6 +31,15 @@ Also, if you are using this in windows directly or mac it would take the locatio
 
 But for Linux you must copy galaxy-2.0.db to the path you are added to settings.json
 
+Next, in the repository there is a requirements.txt that has all the python Python modules needed so, standing in the path of this repository:
+
+    pipenv  install  -r requirements.txt
+
+Finally, just need to execture the main.py file (make sure that you are in the correct path):
+
+    pipenv shell
+    python3 main.py
+
 ## Docker
 First build the docker image. My recommendation is:
 
